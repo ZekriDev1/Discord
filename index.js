@@ -11,4 +11,5 @@ client.on('messageCreate', (message) => {
   }
 });
 
-client.login('MTM5NDY3NzE4ODcxMTk0MDEzNg.GrJ5LN.mo_WPkvAcHSciNFzGREE_pncukYWldBdsPG1DU'); // Replace with your bot token
+require('dotenv').config();
+client.login(process.env.DISCORD_TOKEN);
