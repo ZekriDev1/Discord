@@ -11,5 +11,4 @@ client.on('messageCreate', (message) => {
   }
 });
 
-require('dotenv').config();
-client.login(process.env.DISCORD_TOKEN);
+client.login('MTM5NDY3NzE4ODcxMTk0MDEzNg.GrJ5LN.mo_WPkvAcHSciNFzGREE_pncukYWldBdsPG1DU');
