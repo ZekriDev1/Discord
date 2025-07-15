@@ -1,0 +1,20 @@
+{
+  "name": "Z3-bot",
+  "version": "1.0.0",
+  "description": "My Discord bot using discord.js and GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js"
+  ],
+  "author": "Zekri Dev",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.4.5"
+  }
+}
